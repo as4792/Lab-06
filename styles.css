@@ -87,9 +87,104 @@ display: inline-block;
     left: 250px;
 }
 
+.flex-container{
+   display: flex;
+}
 .flex{
-    background-color: brown;
+    background-color: lightcoral;
     height: 100px;
     width: 100px;
-    justify-content: baseline;
+    flex-direction: row;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexy{
+    background-color: rgb(87, 17, 17);
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+}
+
+.flex-container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexyz{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container4{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.flexyza{
+    background-color: rgb(48, 18, 168);
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexyzab1{
+    background-color: rgb(121, 25, 84);
+    height: 150px;
+    width: 150px;
+}
+
+.flexyzab2{
+    background-color: rgb(72, 20, 57);
+    height: 200px;
+    width: 200px;
+}
+
+.flexyzab3{
+    background-color: rgb(181, 95, 95);
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flexyzab10{
+    background-color: rgb(50, 157, 18);
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+}
+
+
+.flex-container7{
+    display: flex;
+}
+
+.flexyzab100{
+    background-color: rgb(16, 81, 109);
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+}
+
+.flexyzab101{
+    background-color: rgb(221, 20, 104);
+    height: 150px;
+    width: 150px;
+    flex-direction: column;
+    flex-grow: 2px;
 }
