@@ -3,12 +3,93 @@ div{
     width: 50vw;
     height: 50vh;
     border: 2px solid black;
+display: inline-block;
 }
 
 
-#static-box{
+.static-box{
     background-color: red;
-    height: 50vh;
-    width: 50vw;
+    height: 100px;
+    width: 100px;
     position: static;
+}
+
+.relative-box{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.absolute-box{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.fixed-box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky-box{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top: 0px;
+}
+
+.background-image{
+    background-image: url(cats.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.background-image-repeat{
+    background-image: url(cats.png);
+    height:300px;
+    width: 300px;
+    background-repeat: repeat-x ;
+}
+
+.background-image-repeat2{
+    background-image: url(cats.png);
+    height: 300px;
+    width: 300px;
+    background-repeat: repeat-y;
+}
+
+.box1{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: auto;
+}
+
+.box2{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 250px;
+}
+
+.flex{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    justify-content: baseline;
 }
