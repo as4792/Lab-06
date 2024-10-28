@@ -1,6 +1,11 @@
-#static-box{
+div{
     background-color: blue;
-    width: 10px;
-    height: 15px;
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+
+#static-box{
     position: static;
 }
