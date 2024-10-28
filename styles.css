@@ -1,11 +1,14 @@
 div{
     background-color: blue;
-    width: 250px;
-    height: 150px;
+    width: 50vw;
+    height: 50vh;
     border: 2px solid black;
 }
 
 
 #static-box{
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
     position: static;
 }
