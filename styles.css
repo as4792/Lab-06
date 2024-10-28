@@ -1,0 +1,6 @@
+#static-box{
+    background-color: blue;
+    width: 10px;
+    height: 15px;
+    position: static;
+}
