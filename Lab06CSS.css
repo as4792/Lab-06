@@ -1,0 +1,190 @@
+div{
+    background-color: blue;
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid black;
+display: inline-block;
+}
+
+
+.static-box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+.relative-box{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.absolute-box{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.fixed-box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky-box{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    top: 0px;
+}
+
+.background-image{
+    background-image: url(cats.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.background-image-repeat{
+    background-image: url(cats.png);
+    height:300px;
+    width: 300px;
+    background-repeat: repeat-x ;
+}
+
+.background-image-repeat2{
+    background-image: url(cats.png);
+    height: 300px;
+    width: 300px;
+    background-repeat: repeat-y;
+}
+
+.box1{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: auto;
+}
+
+.box2{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    left: 250px;
+}
+
+.flex-container{
+   display: flex;
+}
+.flex{
+    background-color: lightcoral;
+    height: 100px;
+    width: 100px;
+    flex-direction: row;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexy{
+    background-color: rgb(87, 17, 17);
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+}
+
+.flex-container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexyz{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container4{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.flexyza{
+    background-color: rgb(48, 18, 168);
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexyzab1{
+    background-color: rgb(121, 25, 84);
+    height: 150px;
+    width: 150px;
+}
+
+.flexyzab2{
+    background-color: rgb(72, 20, 57);
+    height: 200px;
+    width: 200px;
+}
+
+.flexyzab3{
+    background-color: rgb(181, 95, 95);
+    height: 100px;
+    width: 100px;
+}
+
+.flex-container6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flexyzab10{
+    background-color: rgb(50, 157, 18);
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+}
+
+
+.flex-container7{
+    display: flex;
+}
+
+.flexyzab100{
+    background-color: rgb(16, 81, 109);
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+}
+
+.flexyzab101{
+    background-color: rgb(221, 20, 104);
+    height: 150px;
+    width: 150px;
+    flex-direction: column;
+    flex-grow: 2px;
+}
